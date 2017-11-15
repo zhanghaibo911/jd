@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/login.css">
+	<script type="text/javascript" src="jq1.7.2/jquery.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/login.js"></script>
+</head>
+<body>
+	<!-- 头部 -->
+	<div id="header">
+		<!-- 头部的上部分 -->
+		<div class="header_top">
+			<div class="header_top1 clearfix">
+				<!-- 登陆注册 -->
+				<div class="login fl">微夸网欢迎您 !<a href="javascript:;">[请登陆]</a><a href="javascript:;">[免费注册]</a></div>
+				<div class="fr">
+					<ul class="clearfix">
+						<li><a href="javascript:;">我的订单</a> <span>|</span></li>
+						<li><a href="javascript:;">网店代销</a> <span>|</span></li>
+						<li><a href="javascript:;">化妆品批发</a> <span>|</span></li>
+						<li><a href="javascript:;" class="kd">快递查询</a> <span>|</span></li>
+						<li><a href="javascript:;">批发建议</a> <span>|</span></li>
+						<li><a href="javascript:;">手机版</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- 头部的logo部分 -->
+		<div class="header_logo">
+			<h1 class="logo"><a href="index.html"></a></h1>
+			<!-- 搜索框 -->
+			<div class="searchbox">
+				<form action="1.php" method="post" class="search">
+					<table cellpadting="0" cellspacing="0">
+						<tr>
+							<td class="search_label"><input type="text" value="ZUZU" class="seach1">
+							</td>
+							<td><input type="submit" value="搜索" class="btn_search"></td>
+						</tr>
+					</table>
+				</form>
+				<ul>
+					<li><a href="javascript:;">热搜:</a></li>
+					<li><a href="javascript:;" class="hs">韩束</a></li>
+					<li><a href="javascript:;">蔻辰</a></li>
+					<li><a href="javascript:;">涵曦</a></li>
+					<li><a href="javascript:;">珍嗖啦</a></li>
+					<li><a href="javascript:;" class="hs">蒸脸器</a></li>
+					<li><a href="javascript:;">九朵云马油</a></li>
+					<li><a href="javascript:;">优理氏</a></li>
+				</ul>
+			</div>
+			<!-- 购物车 -->
+			<div class="hot_search">
+				<span>0</span>
+			</div>
+		</div>
+		<!-- 头部的导航 -->
+		<div class="header_nav clearfix">
+			<div class="header_nav2">
+				<ul class="clearfix">
+					<li><a href="javascript:;">首页</a></li>
+					<li><a href="javascript:;">品牌库</a></li>
+					<li><a href="javascript:;">护肤品</a></li>
+					<li><a href="javascript:;">靓丽彩妆</a></li>
+					<li><a href="javascript:;">套装</a></li>
+					<li><a href="javascript:;">减肥瘦身</a></li>
+					<li><a href="javascript:;">爆款包邮</a></li>
+					<li><a href="javascript:;">微信代理</a></li>
+				</ul>
+			</div>
+			<div class="header_nav1">
+				<h2>
+					全部商品分类
+					<img src="img/down.png" />
+					<div id="pre-left">
+						<ul class="choose clearfix">
+							<li class="clearfix li li1"><i></i><a href="javascript:;" class="a">美颜护肤</a><b></b>
+								<ul class="check clearfix">
+									<ul class="left clearfix">
+										<h5>热门分类</h5>
+										<ul class="left-bottom clearfix">
+											<li><a href="javascript:;">洁面</a></li>
+											<li><a href="javascript:;">乳液</a></li>
+											<li><a href="javascript:;">面霜</a></li>
+											<li><a href="javascript:;">化妆水/喷雾</a></li>
+											<li><a href="javascript:;">精华液</a></li>
+											<li><a href="javascript:;">眼霜眼胶</a></li>
+											<li><a href="javascript:;">面膜</a></li>
+											<li><a href="javascript:;">眼膜</a></li>
+											<li><a href="javascript:;">卸妆</a></li>
+											<li><a href="javascript:;">去角质</a></li>
+											<li><a href="javascript:;">祛斑祛痘</a></li>
+											<li><a href="javascript:;">手足保养</a></li>
+											<li><a href="javascript:;">口腔</a></li>
+											<li><a href="javascript:;">套装礼盒</a></li>
+											<li><a href="javascript:;">精油</a></li>
+											<li class="last"><a href="javascript:;">防晒</a></li>
+										</ul>
+									</ul>
+									<ul class="right">
+										<h6>热门品牌</h6>
+										<ul class="right-bottom">
+											<li><a href="javascript:;">雅漾</a></li>
+											<li><a href="javascript:;">UNES优理氏</a></li>
+											<li><a href="javascript:;">爆品</a></li>
+											<li><a href="javascript:;">The Face Shop</a></li>
+											<li><a href="javascript:;">清洗世界</a></li>
+											<li><a href="javascript:;">欧莱雅</a></li>
+											<li><a href="javascript:;">美颜秘笈</a></li>
+											<li><a href="javascript:;">兰芝</a></li>
+											<li><a href="javascript:;">植美村</a></li>
+											<li><a href="javascript:;">黛莱美</a></li>
+										</ul>
+									</ul>
+								</ul>
+							</li>
+							<li class="clearfix li li2"><i></i><a href="javascript:;" class="a">靓丽彩妆</a><b></b>
+								<ul class="check clearfix">
+									<ul class="left clearfix">
+										<h5>热门分类</h5>
+										<ul class="left-bottom clearfix">
+											<li><a href="javascript:;">腮红/胭脂</a></li>
+											<li><a href="javascript:;">眉粉</a></li>
+											<li><a href="javascript:;">眼线</a></li>
+											<li><a href="javascript:;">粉底液/膏</a></li>
+											<li><a href="javascript:;">隔离</a></li>
+											<li><a href="javascript:;">BB霜CC霜</a></li>
+											<li><a href="javascript:;">遮瑕</a></li>
+											<li><a href="javascript:;">睫毛膏</a></li>
+											<li><a href="javascript:;">眼影</a></li>
+											<li><a href="javascript:;">唇彩/口红</a></li>
+											<li><a href="javascript:;">洗发护发</a></li>
+											<li><a href="javascript:;">美妆工具</a></li>
+											<li><a href="javascript:;">眉笔</a></li>
+											<li><a href="javascript:;">美甲.护甲</a></li>
+											<li><a href="javascript:;">化妆套刷</a></li>
+											<li><a href="javascript:;">美发造型</a></li>
+										</ul>
+									</ul>
+									<ul class="right">
+										<h6>热门品牌</h6>
+										<ul class="right-bottom">
+											<li><a href="javascript:;">卡姿兰</a></li>
+											<li><a href="javascript:;">蜜拉贝儿</a></li>
+											<li><a href="javascript:;">UNES优理氏</a></li>
+											<li><a href="javascript:;">爆品</a></li>
+											<li><a href="javascript:;">The Face Shop</a></li>
+											<li><a href="javascript:;">清洗世界</a></li>
+											<li><a href="javascript:;">蜗蜗</a></li>
+											<li><a href="javascript:;">美颜秘笈</a></li>
+											<li><a href="javascript:;">MISSHA谜尚</a></li>
+											<li><a href="javascript:;">兰芝</a></li>
+										</ul>
+									</ul>
+								</ul>
+							</li>
+							<li class="clearfix li li3"><i></i><a href="javascript:;" class="a">香水香氛</a><b></b>
+								<ul class="check clearfix">
+									<ul class="left clearfix">
+										<h5>热门分类</h5>
+										<ul class="left-bottom clearfix">
+											<li><a href="javascript:;">女士香水</a></li>
+											<li><a href="javascript:;">男士香水</a></li>
+											<li><a href="javascript:;">香膏走珠</a></li>
+											<li><a href="javascript:;">试管Q版</a></li>
+										</ul>
+									</ul>
+									<ul class="right">
+										<h6>热门品牌</h6>
+										<ul class="right-bottom">
+											<li><a href="javascript:;">爆品</a></li>
+											<li><a href="javascript:;">ZUZU</a></li>
+											<li><a href="javascript:;">媚眼娃娃</a></li>
+										</ul>
+									</ul>
+								</ul>
+							</li>
+							<li class="clearfix li li4"><i></i><a href="javascript:;" class="a">瘦身美体</a><b></b>
+								<ul class="check clearfix">
+									<ul class="left clearfix">
+										<h5>热门分类</h5>
+										<ul class="left-bottom clearfix">
+											<li><a href="javascript:;">脱毛</a></li>
+											<li><a href="javascript:;">丰胸美乳</a></li>
+											<li><a href="javascript:;">瘦身纤体</a></li>
+											<li><a href="javascript:;">沐浴</a></li>
+											<li><a href="javascript:;">营养保健</a></li>
+											<li><a href="javascript:;">私处护理</a></li>
+										</ul>
+									</ul>
+									<ul class="right">
+										<h6>热门品牌</h6>
+										<ul class="right-bottom">
+											<li><a href="javascript:;">蜜拉贝儿</a></li>
+											<li><a href="javascript:;">爆品</a></li>
+											<li><a href="javascript:;">清洗世界</a></li>
+											<li><a href="javascript:;">蜗蜗</a></li>
+											<li><a href="javascript:;">美颜秘笈</a></li>
+											<li><a href="javascript:;">黛莱美</a></li>
+											<li><a href="javascript:;">Mistine美氏婷</a></li>
+											<li><a href="javascript:;">ZUZU</a></li>
+											<li><a href="javascript:;">希卡露姿</a></li>
+											<li><a href="javascript:;">澜庭集</a></li>
+										</ul>
+									</ul>
+								</ul>
+							</li>
+							<li class="clearfix li li5"><i></i><a href="javascript:;" class="a">男士专区</a><b></b>
+								<ul class="check clearfix">
+									<ul class="left clearfix">
+										<h5>热门分类</h5>
+										<ul class="left-bottom clearfix">
+											<li><a href="javascript:;">男士清洁</a></li>
+											<li><a href="javascript:;">男士面霜</a></li>
+											<li><a href="javascript:;">男士乳液</a></li>
+											<li><a href="javascript:;">男士爽肤水</a></li>
+											<li><a href="javascript:;">须后水</a></li>
+										</ul>
+									</ul>
+									<ul class="right">
+										<h6>热门品牌</h6>
+										<ul class="right-bottom">
+											<li><a href="javascript:;">美颜秘笈</a></li>
+											<li><a href="javascript:;">阿迪达斯</a></li>
+											<li><a href="javascript:;">曼秀雷敦</a></li>
+											<li><a href="javascript:;">韩束</a></li>
+										</ul>
+									</ul>
+								</ul>
+							</li>
+							<li class="clearfix li li6"><i></i><a href="javascript:;" class="a">服装类</a><b></b>
+								<ul class="check clearfix">
+									<ul class="left clearfix">
+										<h5>热门分类</h5>
+										<ul class="left-bottom clearfix">
+											<li><a href="javascript:;">外套</a></li>
+											<li><a href="javascript:;">连衣裙</a></li>
+											<li><a href="javascript:;">套装</a></li>
+											<li><a href="javascript:;">上衣 / T恤</a></li>
+											<li><a href="javascript:;">丝袜/打底裤/裙子</a></li>
+											<li><a href="javascript:;">塑身内衣</a></li>
+											<li><a href="javascript:;">创意生活</a></li>
+										</ul>
+									</ul>
+									<ul class="right">
+										<h6>热门品牌</h6>
+										<ul class="right-bottom">
+											<li><a href="javascript:;">婴国天使</a></li>
+											<li><a href="javascript:;">笛梵</a></li>
+										</ul>
+									</ul>
+								</ul>
+							</li>
+							<li class="clearfix li li7"><i></i><a href="javascript:;" class="a">网站配套</a><b></b>
+								<ul class="check clearfix">
+									<ul class="left clearfix">
+										<h5>热门分类</h5>
+										<ul class="left-bottom clearfix">
+											<li><a href="javascript:;">今日特价</a></li>
+											<li><a href="javascript:;">断货下架区</a></li>
+										</ul>
+									</ul>
+									<ul class="right">
+										<h6>热门品牌</h6>
+										<ul class="right-bottom">
+											<li><a href="javascript:;">爆品</a></li>
+											<li><a href="javascript:;">阿迪达斯</a></li>
+											<li><a href="javascript:;">OPI</a></li>
+											<li><a href="javascript:;">李医生</a></li>
+										</ul>
+									</ul>
+								</ul>
+							</li>
+							<li class="clearfix li li8"><i></i><a href="javascript:;" class="a">爆款包邮</a><b></b>
+								<ul class="check clearfix">
+									<ul class="left clearfix">
+										<h5>热门分类</h5>
+										<ul class="left-bottom clearfix">
+											<li><a href="javascript:;">今日特价</a></li>
+											<li><a href="javascript:;">断货下架区</a></li>
+										</ul>
+									</ul>
+									<ul class="right">
+										<h6>热门品牌</h6>
+										<ul class="right-bottom">
+											<li><a href="javascript:;">爆品</a></li>
+											<li><a href="javascript:;">阿迪达斯</a></li>
+											<li><a href="javascript:;">OPI</a></li>
+											<li><a href="javascript:;">李医生</a></li>
+										</ul>
+									</ul>
+								</ul>
+							</li>
+							<li class="clearfix li li9"><i></i><a href="javascript:;" class="a">全部商品</a><b></b>
+								<ul class="check clearfix">
+									<ul class="left clearfix">
+										<h5>热门分类</h5>
+										<ul class="left-bottom clearfix">
+											<li><a href="javascript:;">8月新品</a></li>
+											<li><a href="javascript:;">7月新品</a></li>
+											<li><a href="javascript:;">6月新品</a></li>
+											<li><a href="javascript:;">5月新品</a></li>
+											<li><a href="javascript:;">4月新品</a></li>
+											<li><a href="javascript:;">3月新品</a></li>
+										</ul>
+									</ul>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</h2>
+			</div>
+			<h3><a href="javascript:;">客服中心</a></h3>
+		</div>
+		<hr>
+	</div> 
+	<!-- 登录框 -->
+	<div id="user">
+		<div class="user1 clearfix">
+			<div class="left">
+				<h4>已注册用户，请登录</h4>
+				<p>如果您已经是微夸网会员，请登录</p>
+				<div class="dl">
+					<div class="x">
+						<i>*</i>
+						用户名: <input type="text" name="username"> 
+						<div class="nul">本项必填</div>
+						<a href="javascript:;">立即注册</a></div>
+					<div class="y">
+						<i>*</i>
+						密码: <input type="text" name="password"> 
+						<div class="nul">本项必填</div>
+						<a href="javascript:;">忘记密码</a> ?</div>
+				</div>
+				<div class="tj">
+					<input type="submit" value="登录">
+				</div>
+			</div>
+			<div class="right">
+				<h4>信任登录</h4>
+				<p>您还可以使用以下帐号登录</p>
+			</div>
+		</div>
+	</div>
+	<!-- 公众号 -->
+	<div id="last">
+		<div class="last-nav clearfix">
+			<dl>
+				<dt>新手上路</dt>
+				<dd><a href="javascript:;">如何注册会员</a></dd>
+				<dd><a href="javascript:;">网店代销流程</a></dd>
+				<dd><a href="javascript:;">批发进货流程</a></dd>
+			</dl>
+			<dl>
+				<dt>网店代销</dt>
+				<dd><a href="javascript:;">网店数据包</a></dd>
+				<dd><a href="javascript:;">服装尺码对照表</a></dd>
+				<dd><a href="javascript:;">淘宝助理5教程</a></dd>
+			</dl>
+			<dl>
+				<dt>批发付款</dt>
+				<dd><a href="javascript:;">支付方式</a></dd>
+				<dd><a href="javascript:;">批发下单流程</a></dd>
+				<dd><a href="javascript:;">担保付款流程</a></dd>
+			</dl>
+			<dl>
+				<dt>批发配送</dt>
+				<dd><a href="javascript:;">发货地址</a></dd>
+				<dd><a href="javascript:;">国内运费标准</a></dd>
+				<dd><a href="javascript:;">国际运费价格</a></dd>
+			</dl>
+			<dl>
+				<dt>批发售后</dt>
+				<dd><a href="javascript:;">会员常见问题</a></dd>
+				<dd><a href="javascript:;">化妆品退货保障</a></dd>
+				<dd><a href="javascript:;">化妆品批发送货和验货</a></dd>
+			</dl>
+			<dl class="last-right">
+				<dt>微夸批发网公众号</dt>
+				<a href="javascript:;"><img src="img/wechat.jpg"style="widdh:80px;height:80px"></a>
+			</dl>
+		</div>
+	</div>
+	<!-- 底部 -->
+	<div id="end">
+		<div class="end1">
+			<div class="end2">
+				<a href="javascript:;">关于微夸</a>
+				<a href="javascript:;">招聘信息</a>
+				<a href="javascript:;">商家供货</a>
+				<a href="javascript:;">化妆品品牌证照</a>
+				<a href="javascript:;">化妆品网店教程</a>
+				<a href="javascript:;">网站地图</a>
+			</div>
+		</div>
+		<p>©2013 微夸美妆批发网(www.vkua.com)化妆品批发网站,网店代销一件代发货  粤ICP备11092448号</p>
+	</div>
+	<!-- 固定定位 -->
+	<div id="fixed-top">
+		<a href="#header"></a>
+	</div>
+</body>
+</html>
